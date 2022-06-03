@@ -1,0 +1,368 @@
+diff --git a/.bash_history b/.bash_history
+index 3aedc14..c5d10cb 100644
+--- a/.bash_history
++++ b/.bash_history
+@@ -324,3 +324,171 @@ sudo mysql -u root
+ cd project/
+ cd database-alter/
+ sudo mysql -u root
++nano DB-Alters.py 
++cat DB-Alters.py 
++ls
++nano DB-ALters.sh
++ls -l DB-ALters.sh
++chmod +x DB-ALters.sh
++ls -l DB-ALters.sh
++./DB-ALters.sh
++nano DB-ALters.sh
++cat > DB-ALters.sh
++nano DB-ALters.sh
++./DB-ALters.sh
++git log
++git diff
++git log | grep commit
++git diff | grep commit
++diff --git project/database-alter/copies/project3.sql project/database-alter/copies/project4.sql 
++diff --help
++git diff project/database-alter/copies/project3.sql project/database-alter/copies/project4.sql 
++sudo mysql -u root 
++sudo mysqldump -u root project1 > project/database-alter/project1.sql
++cd project/database-alter/
++git diff
++mkdir differences
++git diff > differences/diff4-5.txt
++cd differences/
++ls
++cat diff4-5.txt 
++cd
++cat > DB-ALters.sh 
++
++./DB-ALters.sh 
++exit
++ls
++cd project/
++ls
++cd database-alter/
++ls
++cat project1.sql 
++cd ..
++cat project1.sql 
++ls
++cd database-alter/
++ls
++cat alters
++cd differences/
++ls
++cd ..
++cat project1.sql 
++cd ../
++sudo mysqldump -u root --no-data project1 > schema1.sql
++ls
++cat schema1.sql 
++use project1
++show databases
++sudo mysql -u root 
++ls
++cat DB-ALters.sh 
++cat DB-ALters. 
++cat DB-ALters.py
++cat DB-Alters.py
++cat > DB-Alters.py
++python3 DB-Alters.py 
++nano  DB-Alters.py
++python3 DB-Alters.py 
++ls
++cd project/
++ls
++cd 
++python3
++nano DB-Alters.py 
++python3 DB-Alters.py 
++cat > DB-Alters.py
++python3 DB-Alters.py 
++nano DB-Alters.py 
++python3 DB-Alters.py 
++export http_proxy=http://tinyproxy:8888
++export https_proxy=http://tinyproxy:8888
++python3 DB-Alters.py 
++nano DB-Alters.py 
++python3 DB-Alters.py 
++nano DB-Alters.py 
++nano DB-ALters.sh
++./DB-ALters.sh 
++cd project/database-alter/differences/
++ls
++cat diff5-6.txt 
++cd
++nano DB-Alters.py 
++sudo mysql -u root 
++./DB-ALters.sh 
++nano DB-Alters.py 
++./DB-ALters.sh 
++git diff
++exit
++logout
++hostname
++crontab -e
++sudo crontab -e
++sudo mysql -u root
++stg-manasareddy002.phonepe.nb6,stg-manasareddy003.phonepe.nb6,stg-manasareddy004.phonepe.nb6
++sudo vim /etc/mysql/mariadb.conf.d/galera.cnf
++sudo systemctl stop mariadb
++sudo galera_new_cluster
++sudo systemctl start mariadb
++sudo systemctl status mariadb
++sudo mysql -u praveen -h stg-manasareddy003.phonepe.nb6 -ppassword
++crontab -u manasa.intern -e
++sudo crontab -u manasa.intern -e
++whoami
++sudo crontab -u sre -e
++crontab -l
++sudo crontab -u manasa.intern -e
++nano crontab
++crontab -r
++crontab(1)
++cat crontab
++crontab -e
++sudo crontab -e
++which terminal-notifier
++terminal-notifier -help
++brew install terminal-notifier
++install terminal-notifier
++install --help
++crontab -l
++sudo crontab -l
++ls
++pwd
++touch project-cron
++vim project-cron
++cat project-cron
++ls -a
++chmod u+x project-cron 
++crontab -l
++sudo crontab -l
++nano DB-ALters.sh 
++nano DB-Alters.py 
++cat > DB-Alters.py 
++cat DB-Alters.py 
++./D
++./DB-ALters.sh 
++show databases;
++sudo mysql -u root
++ls 
++mkdir demo
++cd demo/
++mkdir database-alters
++cd database-alters/
++cd
++cd project/
++ls
++cd database-alter/
++ls
++cd
++cd demo/database-alters/
++mkdir copies
++mkdir differences
++cd
++cd demo/database-alters/
++ls
++mkdir README.md
++ls
++rmdir README.md/
++ls
++echo "#demo-2" >> README.md 
++ls
++cd
++ls
+diff --git a/.python_history b/.python_history
+index 1669f3c..a2e6e22 100644
+--- a/.python_history
++++ b/.python_history
+@@ -1 +1,19 @@
+ exit()
++import os
++os.chdir
++import os
++it = 6
++#os.system(""" cd /home/sre/project/database-alter/  """)
++os.chdir(""" /home/sre/project/database-alter/ """)
++os.getcwd()
++os.system(""" export http_proxy=http://tinyproxy:8888 """)
++os.system(""" export https_proxy=http://tinyproxy:8888 """)
++#os.system("""  sudo mysqldump -u root project1 > project1.sql """)
++os.system("""  sudo mysqldump -u root --no-data project1 > project1.sql """)
++os.chdir("project/database-alter/ ")
++os.chdir("project/database-alter/")
++exit
++exit()
++$HOSTNAME
++HOSTNAME
++exit()
+diff --git a/.viminfo b/.viminfo
+index 44215c9..1681f3f 100644
+--- a/.viminfo
++++ b/.viminfo
+@@ -12,7 +12,7 @@
+ ~h
+ # Command Line History (newest to oldest):
+ :wq
+-|2,0,1653415376,,"wq"
++|2,0,1654241284,,"wq"
+ 
+ # Search String History (newest to oldest):
+ 
+@@ -28,16 +28,28 @@
+ |3,1,36,0,1,0,1653415226,"u"
+ 
+ # File marks:
+-'0  19  1  ~/output.txt
+-|4,48,19,1,1653415376,"~/output.txt"
++'0  1  20  ~/project-cron
++|4,48,1,20,1654241284,"~/project-cron"
+ '1  19  1  ~/output.txt
+-|4,49,19,1,1653415241,"~/output.txt"
++|4,49,19,1,1653415376,"~/output.txt"
++'2  19  1  ~/output.txt
++|4,50,19,1,1653415241,"~/output.txt"
+ 
+ # Jumplist (newest first):
++-'  1  20  ~/project-cron
++|4,39,1,20,1654241284,"~/project-cron"
++-'  19  1  ~/output.txt
++|4,39,19,1,1653415376,"~/output.txt"
+ -'  19  1  ~/output.txt
+ |4,39,19,1,1653415376,"~/output.txt"
+ -'  19  1  ~/output.txt
+ |4,39,19,1,1653415241,"~/output.txt"
++-'  19  1  ~/output.txt
++|4,39,19,1,1653415241,"~/output.txt"
++-'  1  0  ~/output.txt
++|4,39,1,0,1653414727,"~/output.txt"
++-'  1  0  ~/output.txt
++|4,39,1,0,1653414727,"~/output.txt"
+ -'  1  0  ~/output.txt
+ |4,39,1,0,1653414727,"~/output.txt"
+ -'  1  0  ~/output.txt
+@@ -45,6 +57,13 @@
+ 
+ # History of marks within files (newest to oldest):
+ 
++> ~/project-cron
++	*	1654241277	0
++	"	1	20
++	^	1	21
++	.	2	0
++	+	2	0
++
+ > ~/output.txt
+ 	*	1653415373	0
+ 	"	19	1
+diff --git a/DB-Alters.py b/DB-Alters.py
+index 89f628d..91d59b6 100755
+--- a/DB-Alters.py
++++ b/DB-Alters.py
+@@ -1,13 +1,29 @@
+ import os
+-it = 4
++it = 8
+ 
+-os.system(""" cd project/database-alter/  """)
++#os.system(" cd /home/sre/project/database-alter/  ")
++os.chdir("project/database-alter/")
++print(os.getcwd())
+ 
+-os.system("""  sudo mysqldump -u root project1 > project/database-alter/project1.sql """)
+-os.system(f""" cp project/database-alter/project1.sql project/database-alter/copies/project{it}.sql """)
++#os.system("export http_proxy=http://tinyproxy:8888")
++#os.system("export https_proxy=http://tinyproxy:8888")
++
++# hostname = os.system("hostname")
++# date = os.system("date")
++# os.system(f"sudo mysqldump -u root --no-data project1 > {hostname}_{date}.sql")
++
++#os.system(" sudo mysqldump -u root project1 > project1.sql ")
++os.system("sudo mysqldump -u root --no-data project1 > project1.sql")
++#os.system(f" cp project1.sql copies/project{it}.sql ")
++os.system(f"cp project1.sql copies/schema{it}.sql")
++os.system("git diff")
++
++#git diff
++
++os.system(f"git diff > differences/diff{it-1}-{it}.txt")
++
++os.system("git add .")
++os.system(f"git commit -m '{it} commit'")
++os.system("git remote add origin https://github.com/Manasa-Reddy-M/Project1.git")
++os.system("git push -u origin main")
+ 
+-it = it+1
+-os.system(""" git add . """)
+-os.system(""" git commit -m "{it}th commit" """)
+-os.system(""" git remote add origin https://github.com/Manasa-Reddy-M/Project1.git """)
+-os.system(""" git push -u origin main """)
+diff --git a/project/database-alter b/project/database-alter
+index a9e1fac..6af4ab2 160000
+--- a/project/database-alter
++++ b/project/database-alter
+@@ -1 +1 @@
+-Subproject commit a9e1fac5a559d495827c996705a3584f72c49f35
++Subproject commit 6af4ab29351d6073caf2a1f9501c1603ec1df47c
+diff --git a/project1.sql b/project1.sql
+index fa92fb2..e69de29 100644
+--- a/project1.sql
++++ b/project1.sql
+@@ -1,54 +0,0 @@
+--- MySQL dump 10.19  Distrib 10.3.34-MariaDB, for debian-linux-gnu (x86_64)
+---
+--- Host: localhost    Database: project1
+--- ------------------------------------------------------
+--- Server version	10.3.34-MariaDB-0ubuntu0.20.04.1-log
+-
+-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+-/*!40101 SET NAMES utf8mb4 */;
+-/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+-/*!40103 SET TIME_ZONE='+00:00' */;
+-/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+-/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+-
+---
+--- Table structure for table `SREPYMTS`
+---
+-
+-DROP TABLE IF EXISTS `SREPYMTS`;
+-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+-/*!40101 SET character_set_client = utf8 */;
+-CREATE TABLE `SREPYMTS` (
+-  `name` varchar(40) DEFAULT NULL,
+-  `id` int(11) DEFAULT NULL,
+-  `email` varchar(40) DEFAULT NULL,
+-  `DOB` date DEFAULT NULL,
+-  `age` int(100) DEFAULT NULL,
+-  `phn_num` int(11) DEFAULT NULL
+-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+-/*!40101 SET character_set_client = @saved_cs_client */;
+-
+---
+--- Dumping data for table `SREPYMTS`
+---
+-
+-LOCK TABLES `SREPYMTS` WRITE;
+-/*!40000 ALTER TABLE `SREPYMTS` DISABLE KEYS */;
+-INSERT INTO `SREPYMTS` VALUES ('Manasa',12301,'manasahuydg@gmail.com','0000-09-25',NULL,NULL),('Pooja',12302,'pooja@gmail.com','2000-12-27',22,768436),('Deep',12303,'deep@gmail.com','1990-10-21',32,76843);
+-/*!40000 ALTER TABLE `SREPYMTS` ENABLE KEYS */;
+-UNLOCK TABLES;
+-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+-
+-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+-
+--- Dump completed on 2022-05-25 15:33:58
